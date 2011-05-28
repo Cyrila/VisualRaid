@@ -1,0 +1,25 @@
+## Title: VisualRaidOptions
+## Notes: Desesperated Options for Cooldown Bars to clearly show the skillings of act inplay.
+## Interface: 40100
+## X-Compatible-With: 40000
+## Version: 1.1-alpha
+## Dependencies: VisualRaid
+## OptionalDeps: Ace3
+
+## X-License: GNU General Public License version 3 (GPLv3)
+## Author: Cyrila
+## X-Author-Faction: Horde
+## X-Author-Server: Bloodfeather-EU
+## X-Credits: WowAce.com, Curse.com, WoWWiki.com, WoWhead.com, Wake, Blizzard, Lua.org
+
+
+#@no-lib-strip@
+libs\AceConfig-3.0\AceConfig-3.0.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+libs\AceGUI-3.0-Spell-EditBox\AceGUI-3.0-Spell-EditBox.xml
+#@end-no-lib-strip@
+
+FauxScrollFrameWidget.lua
+VisualRaidOptions.lua

@@ -1,0 +1,30 @@
+## Title: VisualRaid
+## Notes: Desesperated Cooldown Bars to clearly show the skillings of act inplay.
+## Interface: 40100
+## X-Compatible-With: 40000
+## Version: 1.1-alpha
+## SavedVariables: VisualRaidDB
+## OptionalDeps: Ace3
+
+## X-License: GNU General Public License version 3 (GPLv3)
+## Author: Cyrila
+## X-Author-Faction: Horde
+## X-Author-Server: Bloodfeather-EU
+## X-Credits: WowAce.com, Curse.com, WoWWiki.com, WoWhead.com, Wake, Blizzard, Lua.org
+
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceTimer-3.0\AceTimer-3.0.xml
+libs\AceComm-3.0\AceComm-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceSerializer-3.0\AceSerializer-3.0.xml
+libs\LibCyrilaBars-1.0\LibCyrilaBars-1.0.xml
+#@end-no-lib-strip@
+
+VisualRaid.lua
+modules\Comm.lua

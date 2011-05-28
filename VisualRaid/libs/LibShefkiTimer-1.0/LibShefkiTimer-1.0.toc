@@ -1,0 +1,14 @@
+## Interface: 30300
+## Title: Lib: ShefkiTimer-1.0 
+## Notes: Experimental timer library that uses the Animation system as a scheduler.
+## Author: Shefki
+## DefaultState: enabled
+## Version: r20100421021056
+## X-Category: Library
+## X-Curse-Packaged-Version: r20100421021056
+## X-Curse-Project-Name: LibShefkiTimer-1.0
+## X-Curse-Project-ID: libshefkitimer-1-0
+## X-Curse-Repository-ID: wow/libshefkitimer-1-0/mainline
+
+LibStub\LibStub.lua
+LibShefkiTimer-1.0.xml
